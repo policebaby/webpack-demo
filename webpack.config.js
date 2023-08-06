@@ -1,7 +1,7 @@
 module.exports = {
     mode: 'production',
     entry: {
-        a: './src/hello.jsa',
+        a: './src/hello.js',
         b: './src/index.js'
     }
 }
