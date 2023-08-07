@@ -1,5 +1,16 @@
-import m1 from './m1';
-import m2 from './m2';
+// import './style/index.css'
+// import An from './assets/resource/monk.jpeg'
 
-m1.setH1()
-m2.sayHello()
+
+addEventListener('DOMContentLoaded', () => {
+    document.body.insertAdjacentHTML('beforeend', '<h1>今天天气真不错, 风才12级</h1>')
+
+    document.body.addEventListener('click', () => {
+        alert('您好');
+    });
+})
+
+
+
+
+
